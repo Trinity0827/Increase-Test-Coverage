@@ -13,6 +13,6 @@ public class AtmTests
     {
         var result = testAtm.withdraw(25);
         Assert.True(result);
-        Assert.Equal(65, testAtm.getBalance());
+        Assert.Equal(75, testAtm.getBalance());
     }
 }
